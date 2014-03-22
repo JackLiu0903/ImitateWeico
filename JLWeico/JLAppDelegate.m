@@ -7,15 +7,30 @@
 //
 
 #import "JLAppDelegate.h"
+#import "JASidePanelController.h"
+#import "JLLeftViewController.h"
+#import "JLCenterViewController.h"
 
 @implementation JLAppDelegate
+
+@synthesize window = _window;
+@synthesize viewController = _viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+	self.viewController = [[JASidePanelController alloc] init];
+    self.viewController.shouldDelegateAutorotateToVisiblePanel = NO;
+    
+	self.viewController.leftPanel = [[JLLeftViewController alloc] init];
+	self.viewController.centerPanel = [[UINavigationController alloc] initWithRootViewController:[[JLCenterViewController alloc] init]];
+	
+	self.window.rootViewController = self.viewController;
+
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

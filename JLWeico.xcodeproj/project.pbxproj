@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40165CAB18DC832E00607A19 /* JLLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40165CAA18DC832E00607A19 /* JLLeftViewController.m */; };
+		40165CB718DC845000607A19 /* JLCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40165CB618DC845000607A19 /* JLCenterViewController.m */; };
+		40165CBB18DC8AFF00607A19 /* common_tab_bkg.png in Resources */ = {isa = PBXBuildFile; fileRef = 40165CBA18DC8AFF00607A19 /* common_tab_bkg.png */; };
+		40165CBD18DC8B8300607A19 /* mobile_text_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 40165CBC18DC8B8300607A19 /* mobile_text_background.png */; };
+		40165CBF18DC925100607A19 /* rank_icon_no1.png in Resources */ = {isa = PBXBuildFile; fileRef = 40165CBE18DC925100607A19 /* rank_icon_no1.png */; };
+		40715E5318DD1E9900D8FC64 /* button_icon_group.png in Resources */ = {isa = PBXBuildFile; fileRef = 40715E5218DD1E9900D8FC64 /* button_icon_group.png */; };
+		40715E5718DD1EDA00D8FC64 /* button_icon_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 40715E5418DD1EDA00D8FC64 /* button_icon_back.png */; };
+		40715E5818DD1EDA00D8FC64 /* button_icon_plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 40715E5518DD1EDA00D8FC64 /* button_icon_plus.png */; };
+		40715E5918DD1EDA00D8FC64 /* button_icon_setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 40715E5618DD1EDA00D8FC64 /* button_icon_setting.png */; };
+		40715E6118DD3B5900D8FC64 /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40715E5E18DD3B5900D8FC64 /* JASidePanelController.m */; };
+		40715E6218DD3B5900D8FC64 /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 40715E6018DD3B5900D8FC64 /* UIViewController+JASidePanel.m */; };
 		4076387F18DC4736002996DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4076387E18DC4736002996DE /* Foundation.framework */; };
 		4076388118DC4736002996DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4076388018DC4736002996DE /* CoreGraphics.framework */; };
 		4076388318DC4736002996DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4076388218DC4736002996DE /* UIKit.framework */; };
@@ -21,8 +32,6 @@
 		407638A418DC4736002996DE /* JLWeicoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 407638A318DC4736002996DE /* JLWeicoTests.m */; };
 		407638D818DC4AD8002996DE /* README-GHUnit in Resources */ = {isa = PBXBuildFile; fileRef = 407638C618DC4AD8002996DE /* README-GHUnit */; };
 		407638DA18DC4AD8002996DE /* JASidePanel Need Framework.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 407638CB18DC4AD8002996DE /* JASidePanel Need Framework.rtf */; };
-		407638DB18DC4AD8002996DE /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 407638CD18DC4AD8002996DE /* JASidePanelController.m */; };
-		407638DC18DC4AD8002996DE /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 407638CF18DC4AD8002996DE /* UIViewController+JASidePanel.m */; };
 		407638E018DC4C41002996DE /* ASIHTTPRequest Need Framework.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 407638DF18DC4C41002996DE /* ASIHTTPRequest Need Framework.rtf */; };
 		407638E218DC72D1002996DE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407638E118DC72D0002996DE /* CFNetwork.framework */; };
 		407638E418DC72DF002996DE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407638E318DC72DF002996DE /* SystemConfiguration.framework */; };
@@ -64,6 +73,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40165CA918DC832E00607A19 /* JLLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLLeftViewController.h; sourceTree = "<group>"; };
+		40165CAA18DC832E00607A19 /* JLLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLLeftViewController.m; sourceTree = "<group>"; };
+		40165CB518DC845000607A19 /* JLCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCenterViewController.h; sourceTree = "<group>"; };
+		40165CB618DC845000607A19 /* JLCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLCenterViewController.m; sourceTree = "<group>"; };
+		40165CBA18DC8AFF00607A19 /* common_tab_bkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_tab_bkg.png; sourceTree = "<group>"; };
+		40165CBC18DC8B8300607A19 /* mobile_text_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobile_text_background.png; sourceTree = "<group>"; };
+		40165CBE18DC925100607A19 /* rank_icon_no1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rank_icon_no1.png; sourceTree = "<group>"; };
+		40715E5218DD1E9900D8FC64 /* button_icon_group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_icon_group.png; sourceTree = "<group>"; };
+		40715E5418DD1EDA00D8FC64 /* button_icon_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_icon_back.png; sourceTree = "<group>"; };
+		40715E5518DD1EDA00D8FC64 /* button_icon_plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_icon_plus.png; sourceTree = "<group>"; };
+		40715E5618DD1EDA00D8FC64 /* button_icon_setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_icon_setting.png; sourceTree = "<group>"; };
+		40715E5D18DD3B5900D8FC64 /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
+		40715E5E18DD3B5900D8FC64 /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
+		40715E5F18DD3B5900D8FC64 /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
+		40715E6018DD3B5900D8FC64 /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
 		4076387B18DC4736002996DE /* JLWeico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLWeico.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4076387E18DC4736002996DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4076388018DC4736002996DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,10 +106,6 @@
 		407638A318DC4736002996DE /* JLWeicoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLWeicoTests.m; sourceTree = "<group>"; };
 		407638C618DC4AD8002996DE /* README-GHUnit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "README-GHUnit"; sourceTree = "<group>"; };
 		407638CB18DC4AD8002996DE /* JASidePanel Need Framework.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "JASidePanel Need Framework.rtf"; sourceTree = "<group>"; };
-		407638CC18DC4AD8002996DE /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
-		407638CD18DC4AD8002996DE /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
-		407638CE18DC4AD8002996DE /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
-		407638CF18DC4AD8002996DE /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
 		407638DF18DC4C41002996DE /* ASIHTTPRequest Need Framework.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "ASIHTTPRequest Need Framework.rtf"; sourceTree = "<group>"; };
 		407638E118DC72D0002996DE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		407638E318DC72DF002996DE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -172,6 +192,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40165CB818DC8AFF00607A19 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				40165CB918DC8AFF00607A19 /* test_image */,
+			);
+			path = resource;
+			sourceTree = SOURCE_ROOT;
+		};
+		40165CB918DC8AFF00607A19 /* test_image */ = {
+			isa = PBXGroup;
+			children = (
+				40715E5218DD1E9900D8FC64 /* button_icon_group.png */,
+				40715E5418DD1EDA00D8FC64 /* button_icon_back.png */,
+				40715E5518DD1EDA00D8FC64 /* button_icon_plus.png */,
+				40715E5618DD1EDA00D8FC64 /* button_icon_setting.png */,
+				40165CBC18DC8B8300607A19 /* mobile_text_background.png */,
+				40165CBA18DC8AFF00607A19 /* common_tab_bkg.png */,
+				40165CBE18DC925100607A19 /* rank_icon_no1.png */,
+			);
+			path = test_image;
+			sourceTree = "<group>";
+		};
 		4076387218DC4736002996DE = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +255,10 @@
 				407638AD18DC4AD8002996DE /* ThirdParty Framework */,
 				4076388D18DC4736002996DE /* JLAppDelegate.h */,
 				4076388E18DC4736002996DE /* JLAppDelegate.m */,
+				40165CA918DC832E00607A19 /* JLLeftViewController.h */,
+				40165CAA18DC832E00607A19 /* JLLeftViewController.m */,
+				40165CB518DC845000607A19 /* JLCenterViewController.h */,
+				40165CB618DC845000607A19 /* JLCenterViewController.m */,
 				4076389018DC4736002996DE /* Images.xcassets */,
 				4076388518DC4736002996DE /* Supporting Files */,
 			);
@@ -222,6 +268,7 @@
 		4076388518DC4736002996DE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				40165CB818DC8AFF00607A19 /* resource */,
 				4076388618DC4736002996DE /* JLWeico-Info.plist */,
 				4076388718DC4736002996DE /* InfoPlist.strings */,
 				4076388A18DC4736002996DE /* main.m */,
@@ -296,11 +343,11 @@
 		407638CA18DC4AD8002996DE /* JASidePanel */ = {
 			isa = PBXGroup;
 			children = (
+				40715E5D18DD3B5900D8FC64 /* JASidePanelController.h */,
+				40715E5E18DD3B5900D8FC64 /* JASidePanelController.m */,
+				40715E5F18DD3B5900D8FC64 /* UIViewController+JASidePanel.h */,
+				40715E6018DD3B5900D8FC64 /* UIViewController+JASidePanel.m */,
 				407638CB18DC4AD8002996DE /* JASidePanel Need Framework.rtf */,
-				407638CC18DC4AD8002996DE /* JASidePanelController.h */,
-				407638CD18DC4AD8002996DE /* JASidePanelController.m */,
-				407638CE18DC4AD8002996DE /* UIViewController+JASidePanel.h */,
-				407638CF18DC4AD8002996DE /* UIViewController+JASidePanel.m */,
 			);
 			path = JASidePanel;
 			sourceTree = "<group>";
@@ -452,8 +499,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				407638E018DC4C41002996DE /* ASIHTTPRequest Need Framework.rtf in Resources */,
+				40715E5718DD1EDA00D8FC64 /* button_icon_back.png in Resources */,
+				40715E5818DD1EDA00D8FC64 /* button_icon_plus.png in Resources */,
+				40715E5918DD1EDA00D8FC64 /* button_icon_setting.png in Resources */,
 				4076388918DC4736002996DE /* InfoPlist.strings in Resources */,
+				40715E5318DD1E9900D8FC64 /* button_icon_group.png in Resources */,
 				4076389118DC4736002996DE /* Images.xcassets in Resources */,
+				40165CBB18DC8AFF00607A19 /* common_tab_bkg.png in Resources */,
+				40165CBD18DC8B8300607A19 /* mobile_text_background.png in Resources */,
+				40165CBF18DC925100607A19 /* rank_icon_no1.png in Resources */,
 				407638DA18DC4AD8002996DE /* JASidePanel Need Framework.rtf in Resources */,
 				407638D818DC4AD8002996DE /* README-GHUnit in Resources */,
 			);
@@ -475,12 +529,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				407638F118DC7890002996DE /* Reachability.m in Sources */,
+				40165CAB18DC832E00607A19 /* JLLeftViewController.m in Sources */,
 				4076394518DC7A16002996DE /* ASIAuthenticationDialog.m in Sources */,
 				4076394618DC7A16002996DE /* ASIDataCompressor.m in Sources */,
 				4076388F18DC4736002996DE /* JLAppDelegate.m in Sources */,
-				407638DB18DC4AD8002996DE /* JASidePanelController.m in Sources */,
 				4076394A18DC7A16002996DE /* ASIHTTPRequest.m in Sources */,
 				4076394918DC7A16002996DE /* ASIFormDataRequest.m in Sources */,
+				40165CB718DC845000607A19 /* JLCenterViewController.m in Sources */,
 				4076394818DC7A16002996DE /* ASIDownloadCache.m in Sources */,
 				4076394E18DC7A16002996DE /* ASICloudFilesCDNRequest.m in Sources */,
 				4076394B18DC7A16002996DE /* ASIInputStream.m in Sources */,
@@ -488,14 +543,15 @@
 				4076395218DC7A16002996DE /* ASICloudFilesObject.m in Sources */,
 				4076395018DC7A16002996DE /* ASICloudFilesContainerRequest.m in Sources */,
 				4076395118DC7A16002996DE /* ASICloudFilesContainerXMLParserDelegate.m in Sources */,
+				40715E6218DD3B5900D8FC64 /* UIViewController+JASidePanel.m in Sources */,
 				4076394718DC7A16002996DE /* ASIDataDecompressor.m in Sources */,
 				4076395818DC7A16002996DE /* ASIS3ObjectRequest.m in Sources */,
+				40715E6118DD3B5900D8FC64 /* JASidePanelController.m in Sources */,
 				4076394C18DC7A16002996DE /* ASINetworkQueue.m in Sources */,
 				4076395A18DC7A16002996DE /* ASIS3ServiceRequest.m in Sources */,
 				4076395718DC7A16002996DE /* ASIS3BucketRequest.m in Sources */,
 				4076394F18DC7A16002996DE /* ASICloudFilesContainer.m in Sources */,
 				4076395418DC7A16002996DE /* ASICloudFilesRequest.m in Sources */,
-				407638DC18DC4AD8002996DE /* UIViewController+JASidePanel.m in Sources */,
 				4076395618DC7A16002996DE /* ASIS3BucketObject.m in Sources */,
 				4076395918DC7A16002996DE /* ASIS3Request.m in Sources */,
 				4076388B18DC4736002996DE /* main.m in Sources */,
